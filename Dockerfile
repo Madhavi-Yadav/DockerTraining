@@ -4,5 +4,5 @@ WORKDIR /mydotnetapp
 
 COPY . .
 
-EXPOSE 4844
+EXPOSE 5000
 CMD ["dotnet", "ApiCoreWithCollections.dll"]
